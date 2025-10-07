@@ -9,8 +9,8 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 import threading
 
 # Enter your API Key and Secret here. If you don't have one, you can generate it from the website.
-key = "f460e64e1facf9600f2030f5ea86982129217d11ccf43548"
-secret = "f3f88d00e66aa186b3c40d34587ae003aa2ab9c57537861fb0af5a19be79ef5d"
+key = "XXXX"
+secret = "XXXX"
 
 # python3
 secret_bytes = bytes(secret, encoding='utf-8')
@@ -126,6 +126,7 @@ while True:
     text = "\n".join(lines) if lines else "No active positions"
     self.update_text(text)
     time.sleep(5)
+
 
 
 
